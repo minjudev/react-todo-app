@@ -1,10 +1,10 @@
 import React from 'react';
-import App from '../App';
+import './Template.css';
 
 const Template = ({children}) => {
     return (
-        <div>
-            <div>오늘의 할 일 (0)</div>
+        <div className="Template">
+            <div className="title">오늘의 할 일 (0)</div>
             <div>{children}</div>
         </div>
     );
